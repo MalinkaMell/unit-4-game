@@ -1,0 +1,116 @@
+body {
+    margin:0;
+	padding:0;
+	background:transparent url("../images/bg-header.jpg");
+	background-position:top center;
+	background-repeat:no-repeat;
+    background-color:#000000;
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;   
+}
+#page {
+	background:transparent url("../images/bg-footer.jpg");
+	background-position:bottom center;
+	background-repeat:no-repeat;
+    width:100%;
+}
+#header {
+	margin:0 auto;
+	padding-bottom: 30px;
+	text-align:center;
+	position:relative;
+	overflow:hidden;
+}
+#logo {
+	position:relative;
+	top:26px;
+}
+#red {
+	background:transparent url("../images/bg-red.jpg");
+	background-position:top center;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	margin:0;
+	padding:20px;
+    overflow:hidden;
+    clear: both;
+}
+#dark {
+	background:transparent url("../images/bg-dark.jpg");
+	background-position:top center;
+	background-repeat:no-repeat;
+	text-decoration:none;
+	margin:0;
+	padding:20px;
+    overflow:hidden;
+    clear: both;
+}
+.bg-on-red {
+    background:transparent url("../images/random-number-bg.jpg");
+	background-position:top center;
+    background-repeat:no-repeat;
+    height: 54px;
+    text-align: center;
+}
+.bg-on-dark {
+    background:transparent url("../images/wins-losses-bg.jpg");
+	background-position:top center;
+    background-repeat:no-repeat;
+    height: 54px;
+    text-align: center;
+}
+
+#instruction {
+    background:rgba(0, 0, 0, 0.7);
+}
+
+
+.fancy-font {
+    font-family: 'Metal Mania', cursive;
+}
+
+.footer {
+	height: 100px;
+}
+#mask {
+    display: none;
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 999;
+}
+.popup {
+    display: none;
+	background: #333 url("../images/popup.jpg") no-repeat top center;
+	text-align: center;
+	padding: 10px;
+	width: 400px;
+	height: 173px;
+    float: left;
+    font-size: 1.2em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 99999;
+    box-shadow: 0px 0px 20px #ffc107;
+    
+}
+.message {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 153px;
+	text-shadow: 4px 4px 4px #000;
+}
+img.btn_close {
+	float: right;
+	width: 34px;
+	height: 36px;
+	opacity: 1;
+	box-shadow: 1px 1px 2px #999, -1px -1px 2px #999;
+}
