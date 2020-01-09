@@ -2,6 +2,8 @@
 
 # Crystals Collector Game
 
+![Banner](assets/images/githubtpl.png)
+
 You will be given a random number at the start of the game.
 
 There are four cristalls below.
@@ -14,7 +16,7 @@ The value of each crystal is hidden from you untill you click on it.
 
 Each time when the game starts, the game will change the values of each crystal.
 
-
+---
 
 [Playable Demo](https://malinkamell.github.io/unit-4-game/)
 
