@@ -23,4 +23,4 @@ Each time when the game starts, the game will change the values of each crystal.
 
 **Optimized for 1920x1080 screen resolution and Google Chrome Version 77.0.3865.75**
 
-_Made for UOA Bootcamp, September 2019_
+_Made for UOA Bootcamp, Week-4, September 2019_
